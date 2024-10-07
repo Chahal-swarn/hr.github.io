@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale1.0">
+        <title>Image Lightbox </title>
+        <link rel="stylesheet" href=1page.html.css"/>
+        <style>
+            /*Basic styling */
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 20px;
+            }
+            .gallery {
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .gallery img {
+                margin: 5px;
+                width: 200px;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+
+        <h1>Image Gallery</h1>
+        <div class="gallery">
+            <a href="image1.jpg" data-lightbox="gallery">
+                <img scr="IMG-20170215-WA0005" alt="image1">
+ </a>
+ <a href="image2.jpg" data-lightbox="gallery">
+    <img src="IMG-20170220-WA0005" alt="image2">
+ </a>
+ <a href="image3.jpg" data-lightbox="gallery">
+    <img src="IMG-20170716-WA0035" alt="image3">
+ </a>
+ <!-- Add more imagesas needed-->
+</div>
+
+<script src="https://cdjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+    </body>
+</html>
